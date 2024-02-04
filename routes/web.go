@@ -14,5 +14,5 @@ func Web() {
 			"version": support.Version,
 		})
 	})
-	facades.Route().Resource("/user", controllers.NewTodoController())
+	facades.Route().Resource("/todo", controllers.NewTodoController())
 }
